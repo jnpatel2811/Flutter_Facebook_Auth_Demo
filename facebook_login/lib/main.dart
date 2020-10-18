@@ -69,7 +69,7 @@ class Home extends StatelessWidget {
                     ),
                     icon: Container(height:50,child: Image.network("https://facebookbrand.com/wp-content/uploads/2019/10/flogo_RGB_HEX-BRC-Site-250.png?w=250&h=250")),
                     onPressed: () {
-                      signInFB().then((value) => print("logged  in")).whenComplete(() => Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context)=> LoggedInScreen(userProfile))));
+                      signInFB().then((value) => print("logged  in Succesfully")).whenComplete(() => Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context)=> LoggedInScreen(userProfile))));
                     },
 
                   ),
